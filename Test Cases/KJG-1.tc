@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Summary: Test Login Success
+Description: 1. Open browser
+2. Enter url: http://localhost:6969/demotesting/
+3. Enter email: thinhtpt@gmail.com
+4. Enter password: 123456
+5. Click login button
+6. Verify welcome text: Hi, Tran Thinh</description>
+   <name>KJG-1</name>
+   <tag>jira-integration</tag>
+   <integratedEntity>
+      <productName>JIRA</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;jiraIssue&quot;:{&quot;fields&quot;:{&quot;customFields&quot;:{&quot;customfield_10020&quot;:[{&quot;id&quot;:4,&quot;name&quot;:&quot;KJG Sprint 1&quot;,&quot;state&quot;:&quot;active&quot;,&quot;boardId&quot;:2,&quot;goal&quot;:&quot;&quot;,&quot;startDate&quot;:&quot;2020-11-07T17:48:56.545Z&quot;,&quot;endDate&quot;:&quot;2020-11-21T17:48:00.000Z&quot;}],&quot;customfield_10000&quot;:&quot;{}&quot;,&quot;customfield_10018&quot;:{&quot;hasEpicLinkFieldDependency&quot;:false,&quot;showField&quot;:false,&quot;nonEditableReason&quot;:{&quot;reason&quot;:&quot;PLUGIN_LICENSE_ERROR&quot;,&quot;message&quot;:&quot;The Parent Link is only available to Jira Premium users.&quot;}},&quot;customfield_10019&quot;:&quot;0|i0000f:&quot;},&quot;status&quot;:{&quot;id&quot;:10000,&quot;description&quot;:&quot;&quot;,&quot;iconUrl&quot;:&quot;https://fptkatalon.atlassian.net/&quot;,&quot;self&quot;:&quot;https://fptkatalon.atlassian.net/rest/api/2/status/10000&quot;,&quot;name&quot;:&quot;To Do&quot;},&quot;project&quot;:{&quot;self&quot;:&quot;https://fptkatalon.atlassian.net/rest/api/2/project/10001&quot;,&quot;key&quot;:&quot;KJG&quot;,&quot;id&quot;:10001,&quot;name&quot;:&quot;Katalon-Jenkins-Git&quot;},&quot;components&quot;:[],&quot;summary&quot;:&quot;Test Login Success&quot;,&quot;description&quot;:&quot;1. Open browser\r\n2. Enter url: http://localhost:6969/demotesting/\r\n3. Enter email: thinhtpt@gmail.com\r\n4. Enter password: 123456\r\n5. Click login button\r\n6. Verify welcome text: Hi, Tran Thinh&quot;,&quot;reporter&quot;:{&quot;active&quot;:true,&quot;displayName&quot;:&quot;Tran Phan Truong Thinh&quot;,&quot;self&quot;:&quot;https://fptkatalon.atlassian.net/rest/api/2/user?accountId\u003d5fa57d5058f262007288e6ad&quot;},&quot;priority&quot;:{&quot;id&quot;:3,&quot;self&quot;:&quot;https://fptkatalon.atlassian.net/rest/api/2/priority/3&quot;,&quot;name&quot;:&quot;Medium&quot;},&quot;votes&quot;:{&quot;self&quot;:&quot;https://fptkatalon.atlassian.net/rest/api/2/issue/KJG-1/votes&quot;,&quot;votes&quot;:0,&quot;hasVoted&quot;:false},&quot;fixVersions&quot;:[],&quot;subtasks&quot;:[],&quot;labels&quot;:[]},&quot;self&quot;:&quot;https://fptkatalon.atlassian.net/rest/api/2/issue/10003&quot;,&quot;key&quot;:&quot;KJG-1&quot;,&quot;id&quot;:10003}}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <testCaseGuid>dd12cb34-9a0f-4f17-a5ee-3ecc6fbbcfff</testCaseGuid>
+</TestCaseEntity>
